@@ -35,7 +35,7 @@ h1{
     display: inline-block;
     float: left;
     margin-top: 30px;
-    font-size: inherit;
+    font-size: 30px;
 }
 h2 {
     display: inline-block;
@@ -49,22 +49,24 @@ h2 {
 }
 
 .logo1 {
-    display: inline;
+    float: left;
+    shape-outside: image-set();
 }
-p{
+/* p{
     display: inline;
     text-align: inherit;
     position: absolute;
     
-}
+} */
 
-.weezer{
+/* .weezer{
     float: left;
     display: inline-block;
     clear:left;
-}
+} */
 
-.css3{
+.logo2{
     margin-right: 5px;
     float: right;
+    shape-outside: image-set();
 }
