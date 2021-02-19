@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(252, 110, 110);
+    height: 100px;
+    width: 100%;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.25);
+}
+
+div {
+    height: (100vh - 100px);
+    padding: 5px;
+    box-sizing: border-box;
+}
+section {
+    border: 5px dotted black;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 15px;
+    
+}
+.box1 {
+    height: 38vh;
+    margin-bottom: 5px;
+    
+}
+.box2 {
+    height: 40vh;
+}
+h1{
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+    font-size: inherit;
+}
+h2 {
+    display: inline-block;
+    float: left;
+    margin: 35px;
+    
+    
+}
+.logout{
+    margin-right: 75px;
+}
+
+.logo1 {
+    display: inline;
+}
+p{
+    display: inline;
+    text-align: inherit;
+    position: absolute;
+    
+}
+
+.weezer{
+    float: left;
+    display: inline-block;
+    clear:left;
+}
+
+.css3{
+    margin-right: 5px;
+    float: right;
+}
