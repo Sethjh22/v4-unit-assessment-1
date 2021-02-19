@@ -19,6 +19,7 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+let gitHubDefinition = 'Github is the website where we can store and distribute our code to eachother. We create repositories where our code files are saved. Then they can be accessed and forked into new repositories as new files where people can edit the code in their own repositories.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +36,10 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+const init = {
+    description: 'how to create a new repository',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -43,6 +48,10 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+const clone = {
+    description: 'this is how you connect the files from github to your individual computer',
+    code: 'git clone url'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +60,10 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+const status = {
+    description: 'shows what step you are on in the git process. Shows what files you still need to add',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +72,10 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+const add = {
+    description: 'marks which files you have changed',
+    code: 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +84,10 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+const commit = {
+    description: 'commit changes you have made to computer but not the repitory yet',
+    code: 'git commit -m""'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,6 +96,10 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+const addRemote = {
+    description: 'if you arent connected to a server it gives you the ability to connect',
+    code: 'git remote add origin <server>'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -83,3 +108,7 @@ let gitDefinition = 'The functions that give me the ability to link the files on
 */
 
 //CODE HERE
+const push = {
+    description: 'pushes saved changes to the respitory on github',
+    code: 'git push'
+}
