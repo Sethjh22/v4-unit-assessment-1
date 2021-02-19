@@ -36,10 +36,15 @@ function sum(num1, num2) {
 
 //CODE HERE
 function trueOrFalse(data){
-  if(data === data) {
-    return true
-  } else {
+  // if(data === data) {
+  //   return true
+  // } else {
+  //   return false
+  // }
+  if(!data){
     return false
+  }else{
+    return true
   }
   
 }
@@ -227,7 +232,7 @@ function firstItem(arr, cb){
 
 //CODE HERE
 function isItBob(obj, cb){
-  if(obj.name === 'bob'){
+  if(obj.name === 'Bob'){
     cb(true)
   }else {
     cb(false)
@@ -245,7 +250,7 @@ function isItBob(obj, cb){
 function giveMeDoubles(arr, cb){
   const doubledArray = []
   for(let i=0; i<arr.length; i++){
-    doubledArray.push(arr[i], arr[i])
+    doubledArray.push(arr[i] * 2)
   }
   cb(doubledArray)
 }
@@ -282,7 +287,7 @@ function carFactory(make, model, year){
     model: model,
     year: year,
     isNew: function(year){
-      if(year > 2018){
+      if(obj.year > 2018){
         return true
       } else{
         return false
