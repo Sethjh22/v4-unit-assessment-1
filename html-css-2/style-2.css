@@ -1,0 +1,127 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+header {
+    background-color: rgb(122, 230, 194);
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+   
+}
+h1{
+    margin: 8px;
+}
+div {
+    padding: 5px;
+}
+h2{
+    margin-bottom: 0;
+}
+section{
+    border: 2px dotted black;
+    margin-top: 0;
+}
+.box1{
+    height: 20vh;
+    padding: 5px;
+    
+}
+.box2{
+    height: 30vh;
+}
+.box3{
+    height: 20vh;
+    padding: 5px;
+}
+.rec1{
+    background-color: purple;
+    display: inline-block;
+    height: 40%;
+    width: 150px;
+    border: 3px solid red;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+.rec2{
+    background-color: blue;
+    height: 40%;
+    width: 50px;
+    display: inline-block;
+    box-shadow: 3px 3px 3px 0px black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.rec3{
+    background-color: palevioletred;
+    height: 90%;
+    width: 120px;
+    display: inline-block;
+    border: 1px solid black;
+    
+}
+
+.circle1{
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.circle2{
+    border: 1px solid black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 40px;
+    
+}
+.circle3{
+    border: 1px solid black;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-left: 30px;
+    
+}
+.rec4{
+    background-color: rgb(255, 245, 233);
+    height: 90%;
+    width: 120px;
+    /* display: inline-block; */
+    border: 1px solid black;
+    padding: 0;
+    
+}
+.circle4{
+    background-color: green;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 0;
+    
+    
+}
+.rec5{
+    background-color: maroon;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    /* display: inline-block; */
+    border: 1px solid black;
+    /* padding: 0; */
+    
+}
+.circle5{
+    background-color: blue;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    margin-left: 0;
+    
+}
+
