@@ -8,6 +8,7 @@ let groceries = ['apple', 'bananas', 'carrots']
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
+const yourName = `Seth`
 
 //////////////////STEP 3////////////////////
 /*
@@ -18,6 +19,9 @@ let groceries = ['apple', 'bananas', 'carrots']
 */
 
 //CODE HERE
+function setGroceryListTitle(x){
+    return(x + `'s Grocery List`)
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -28,6 +32,10 @@ let groceries = ['apple', 'bananas', 'carrots']
 */
 
 //CODE HERE
+function addItem(item){
+    groceries.push(item)
+    displayData();
+}
 
 //////////////////STEP 5////////////////////
 /*
@@ -38,6 +46,10 @@ let groceries = ['apple', 'bananas', 'carrots']
 */
 
 //CODE HERE
+function removeItem(index){
+    groceries.splice(index)
+    displayData()
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -51,6 +63,15 @@ let groceries = ['apple', 'bananas', 'carrots']
 */
 
 //CODE HERE
+function checkGroceryCount(){
+    if(groceries.length > 5){
+        return 'That looks like a big trip'
+    } else if(groceries.length <= 5 && groceries.length > 1){
+        return(groceries.length + ' items')
+    } else if(groceries.length === 1){
+        return '1 item'
+    }
+}
 
 
 //////////////////Check out your code!////////////////////
