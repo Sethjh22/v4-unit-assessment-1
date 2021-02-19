@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = 'The functions that give me the ability to link the files on my computer to the website gitHub. This allows coding files to be shared.'
 
 //////////////////PROBLEM 2////////////////////
 /*
