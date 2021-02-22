@@ -286,13 +286,18 @@ function carFactory(make, model, year){
     make: make,
     model: model,
     year: year,
-    isNew: function(year){
-      if(obj.year > 2018){
-        return true
-      } else{
-        return false
-      }
-    }
+    // isNew: function(year){
+    //   if(obj.year > 2018){
+    //     return true
+    //   } else{
+    //     return false
+    //   }
+    // }
+  }
+  if(year > 2018){
+    obj.isNew = true
+  } else{
+    obj.isNew = false
   }
   return obj
 }
